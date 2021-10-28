@@ -1,5 +1,6 @@
-html{
-    height:110%
+*{
+    height:110%;
+    background-color: darkgreen;
   }
 h1{
     color: rgb(250, 206, 206);
@@ -7,12 +8,9 @@ h1{
   p{
       color: white;
   }
-  body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(blue, red);
-    font-family:Helvetica, Arial, sans-serif;
-  }
+ .info{
+   background-color: darkgray;
+ }
   
       .header{
         width: 100%;

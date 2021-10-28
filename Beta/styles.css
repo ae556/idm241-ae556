@@ -1,0 +1,94 @@
+*{
+    background-color: rgb(230, 238, 227);
+  }
+
+  .header{
+    margin: 1rem 0;
+    background-color: rgb(64, 114, 223);
+    max-width: 20em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+  .headertxt{
+      background:rgb(64, 114, 223);
+      margin-left: 1.5em;
+      color: white
+  }
+  
+  .body{
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  ul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .url_header{
+    
+    width: 7%;
+  }
+  .url_body{
+    width: 36em;
+    max-width: 100% ;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    font-size: 1.2rem;
+  }
+  .url{
+  display: flex;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .triggers{
+  display: flex;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+  }
+  .triggers_body{
+    width: 36em;
+    max-width: 100% ;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    font-size: 1.2rem;
+  }
+  .rules{
+  display: flex;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .rules_body{
+    width: 36em;
+    max-width: 100% ;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    font-size: 1.2rem;
+
+  }
+  .feedback{
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .feedback_body{
+        width: 36em;
+        max-width: 100% ;
+        display: flex;
+        align-items: center;
+        margin: 1em;
+        font-size: 1.2rem;
+    }
+  .loops{
+      
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .loops_body{
+    width: 36em;
+    max-width: 100% ;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    font-size: 1.2rem;
+  }
+  .box{
+    width: 100% ;
+  }
+  
