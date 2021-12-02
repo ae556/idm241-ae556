@@ -16,7 +16,6 @@ body {
   margin-left: -200px;
   border-radius: 2px;
   box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.6);
-  background: $crushed-raspberry;
   font-family: 'Open Sans', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,7 +28,7 @@ body {
   height: 200px;
   top: 65px;
   left: 100px;
-  background-image: linear-gradient(fade-out($rose, .3), fade-out(#a846a8, .3)), url("https://i.pinimg.com/564x/9c/ce/d3/9cced3264a1e7b144467f506923ebb0b.jpg");
+  background-image: linear-gradient();
   border-radius: 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
