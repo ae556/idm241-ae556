@@ -1,0 +1,106 @@
+
+ body {
+	 font-family: "Roboto", sans-serif;
+	 background-color: white;
+	 color: dimgray;
+	 line-height: 1.4;
+	 font-size: 130%;
+}
+ h1, h2 {
+	 font-family: "Montserrat", sans-serif;
+	 text-align: center;
+}
+ img {
+	 max-width: 100%;
+	 height: auto;
+}
+ .container {
+	 max-width: 600px;
+	 margin: 0 auto;
+}
+ header {
+	 background-color: #7fbc45;
+	 color: black;
+	 padding: 10vh 0;
+}
+ header h1 {
+	 font-size: 3em;
+	 color: white;
+}
+ header .project-info {
+	 margin: 0;
+	 padding: 0;
+	 list-style-type: none;
+	 display: flex;
+	 justify-content: space-between;
+	 margin-top: 4em;
+}
+ section {
+	 padding: 3em 1em;
+}
+ section:nth-child(odd) {
+	 background-color: rgba(127, 188, 69, 0.1);
+}
+ section.image, section.colors {
+	 text-align: center;
+}
+ .color-chips {
+	 margin: 0;
+	 padding: 0;
+	 list-style-type: none;
+}
+ .color-chips li {
+	 display: inline-block;
+	 margin: 2em;
+}
+ .color-chips li:before {
+	 content: "";
+	 display: block;
+	 width: 8em;
+	 height: 8em;
+	 margin: 1em auto;
+	 font-size: 0.8em;
+	 background-color: gray;
+	 border-radius: 10em;
+	 line-height: 8;
+}
+ .color-chips li:after {
+	 display: block;
+	 font-size: 0.9em;
+	 color: #9c9c9c;
+	 text-transform: uppercase;
+	 font-family: monospace;
+}
+ .color-chips li.color-1:before {
+	 content: "Grass Green";
+	 background-color: #7fbc45;
+	 color: black;
+}
+ .color-chips li.color-1:after {
+	 content: "#7fbc45";
+}
+ .color-chips li.color-2:before {
+	 content: "Yak Brown";
+	 background-color: #593d31;
+	 color: white;
+}
+ .color-chips li.color-2:after {
+	 content: "#593d31";
+}
+ .color-chips li.color-3:before {
+	 content: "Dandelion";
+	 background-color: #f4d942;
+	 color: black;
+}
+ .color-chips li.color-3:after {
+	 content: "#f4d942";
+}
+ .color-chips li.color-4:before {
+	 content: "Sunny Sky";
+	 background-color: #88dfe2;
+	 color: black;
+}
+ .color-chips li.color-4:after {
+	 content: "#88dfe2";
+}
+ 
