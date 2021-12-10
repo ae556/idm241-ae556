@@ -75,35 +75,35 @@ p{
 	 font-family: monospace;
 }
  .color-chips li.color-1:before {
-	 content: "Grass Green";
-	 background-color: #7fbc45;
+	 content: "Hover Purple";
+	 background-color: rgba(168, 70, 168, 0.7);
 	 color: black;
 }
  .color-chips li.color-1:after {
-	 content: "#7fbc45";
+	 content: "#a846a8";
 }
  .color-chips li.color-2:before {
-	 content: "Yak Brown";
-	 background-color: #593d31;
-	 color: white;
+	 content: "Light Purple";
+	 background-color: rgba(226, 169, 229, 0.7);
+	 color: rgb(0, 0, 0);
 }
  .color-chips li.color-2:after {
-	 content: "#593d31";
+	 content: "#e2a9e5";
 }
  .color-chips li.color-3:before {
-	 content: "Dandelion";
-	 background-color: #f4d942;
-	 color: black;
+	 content: "Background Purple";
+	 background-color: #443468;
+	 color: white;
 }
  .color-chips li.color-3:after {
-	 content: "#f4d942";
+	 content: "#443468";
 }
  .color-chips li.color-4:before {
-	 content: "Sunny Sky";
-	 background-color: #88dfe2;
+	 content: "Circle Grey";
+	 background-color: #e6e6e6;
 	 color: black;
 }
  .color-chips li.color-4:after {
-	 content: "#88dfe2";
+	 content: "#e6e6e6";
 }
  
